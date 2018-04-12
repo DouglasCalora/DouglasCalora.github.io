@@ -1,0 +1,168 @@
+.navbar-default{
+    background: rgba(28, 209, 241, 0.589) ;
+    padding: 15px 15px; 
+    margin-bottom: 0px;
+} 
+
+body{
+    background: rgba(25, 179, 206, 0.116);
+    overflow-x: hidden;
+ 
+}   
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.corpo-inicio{
+    background: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* padding: 10px;
+    height: 300px;  */
+}
+
+.photo img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+description h4 {
+    margin-bottom: 0px;
+}
+
+  /* -------------------- PORTIFOLIO --------------------------- */
+
+.hr-css {
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.portifolio {
+    background: rgb(248, 192, 6);
+    color: white;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+
+    padding-bottom: 30px;
+}
+
+.portifolio h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;    
+    font-weight: bold;
+    
+}
+
+.portifolio-img {
+    width: 100%;
+
+    
+}
+
+.col {
+    margin-top: 30px;
+    
+}
+/* -------------------------------------- */
+
+/* ----------------------------- CONTATO ---------------------- */
+
+.contato h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;    
+    font-weight: bold;
+    color: white;
+   
+}
+
+.contato {
+
+    background: rgba(28, 209, 241, 0.589);
+    margin-top: 0px; 
+    
+}
+
+.form-control {
+    color: rgb(19, 124, 143) ;
+
+}
+.div-form {
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    
+}
+
+.contato-divisao {
+    border-left: 1px solid white;
+}
+
+/* ------------------------------------------------- */
+
+/* ---------------------Rodape------------------- */
+.rodape {
+    background: rgb(14, 81, 119);
+    color: white;
+    padding: 10px;
+
+}
+
+.rodape h2 {
+    font-weight: bold;
+}
+
+.rodape-fonte {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.rodape-divisao{
+    border-right: 1px solid white;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    .photo {
+        float: right;
+        margin: 40px auto;;
+    }
+    
+    .description {
+        float: left;
+        padding: 100px 50px;;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .portifolio-img {
+        max-width: 300px;
+        margin: 30px auto;
+    }
+    
+    .portifolio h2 {
+        margin: 30px 20px 20px 20px;
+    }
+    
+    .contato h2 {
+        margin: 30px 20px 20px 20px;        
+    }
+
+    .contato-divisao {
+        border-left: none;
+        border-top: 1px solid white;
+    }
+
+    .col {
+        margin-top: 0px;    
+    }
+}
