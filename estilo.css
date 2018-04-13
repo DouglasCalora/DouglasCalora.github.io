@@ -22,13 +22,13 @@ body{
     background: white;
     margin-top: 0px;
     margin-bottom: 0px;
-    /* padding: 10px;
-    height: 300px;  */
+   
 }
 
 .photo img {
     max-width: 200px;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 description h4 {
@@ -38,16 +38,13 @@ description h4 {
   /* -------------------- PORTIFOLIO --------------------------- */
 
 .hr-css {
-    width: 500px;
+    max-width: 500px;
     margin-top: 0px;
     margin-bottom: 50px;
 }
 .portifolio {
     background: rgb(248, 192, 6);
     color: white;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
-
     padding-bottom: 30px;
 }
 
@@ -60,8 +57,6 @@ description h4 {
 
 .portifolio-img {
     width: 100%;
-
-    
 }
 
 .col {
@@ -124,11 +119,7 @@ description h4 {
     border-right: 1px solid white;
 }
 
-
-
-
-
-
+/* -----------------Media-------------------- */
 
 @media only screen and (min-width: 768px){
     .photo {
